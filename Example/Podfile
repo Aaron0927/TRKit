@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TRKit_Example' do
+  pod 'TRKit', :path => '../'
+
+  target 'TRKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
