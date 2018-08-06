@@ -1,0 +1,16 @@
+PODS:
+  - TRKit (0.1.0)
+
+DEPENDENCIES:
+  - TRKit (from `../`)
+
+EXTERNAL SOURCES:
+  TRKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TRKit: d649d2af70ea76ccfccb680888e9593996821cc6
+
+PODFILE CHECKSUM: b8e3a118f44162464476aa8cc6808ff6b6a7c4db
+
+COCOAPODS: 1.5.3

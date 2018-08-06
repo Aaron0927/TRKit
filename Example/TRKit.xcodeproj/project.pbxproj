@@ -59,14 +59,14 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		826916D1F29196615BAC62E0 /* TRKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TRKit.podspec; path = ../TRKit.podspec; sourceTree = "<group>"; };
-		830560DE7547666CED337797 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		826916D1F29196615BAC62E0 /* TRKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TRKit.podspec; path = ../TRKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		830560DE7547666CED337797 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96EA0EAC3E61A4F168159B02 /* Pods_TRKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0754F8ED70C1973655D7B8D /* Pods-TRKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRKit_Tests/Pods-TRKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C86C2504ECEB0A11AD0B2118 /* Pods-TRKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRKit_Tests/Pods-TRKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DB2C7BA702E3C29887E7C947 /* Pods_TRKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEA1C6C87B5EA4B35C5F0B0D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EEA1C6C87B5EA4B35C5F0B0D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

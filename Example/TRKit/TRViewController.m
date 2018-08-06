@@ -7,6 +7,7 @@
 //
 
 #import "TRViewController.h"
+#import "NSObject+TRVersion.h"
 
 @interface TRViewController ()
 
@@ -17,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"%@", [self version]);
 }
 
 - (void)didReceiveMemoryWarning

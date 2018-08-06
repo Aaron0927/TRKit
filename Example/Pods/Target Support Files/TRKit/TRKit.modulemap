@@ -1,0 +1,6 @@
+framework module TRKit {
+  umbrella header "TRKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

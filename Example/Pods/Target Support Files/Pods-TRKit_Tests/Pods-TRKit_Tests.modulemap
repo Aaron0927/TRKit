@@ -1,0 +1,6 @@
+framework module Pods_TRKit_Tests {
+  umbrella header "Pods-TRKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
