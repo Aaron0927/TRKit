@@ -8,9 +8,10 @@
 
 #import "TRViewController.h"
 #import "NSObject+TRVersion.h"
+#import "UIButton+Countdown.h"
 
 @interface TRViewController ()
-
+@property (nonatomic, strong) UIButton *btn;
 @end
 
 @implementation TRViewController
@@ -20,6 +21,7 @@
     [super viewDidLoad];
     
     NSLog(@"%@", [self version]);
+    [self.btn countdownWithTime:60 normalTitle:@"获取验证码"];
 }
 
 - (void)didReceiveMemoryWarning

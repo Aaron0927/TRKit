@@ -1,15 +1,36 @@
 PODS:
-  - TRKit (0.1.1)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - TRKit (0.1.1):
+    - AFNetworking
 
 DEPENDENCIES:
   - TRKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   TRKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TRKit: 9b7dded3c0f335b4922e17adaa4ca4890aa13f46
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  TRKit: 60e6a0bf62f836eddf93d581709640870181be13
 
 PODFILE CHECKSUM: b8e3a118f44162464476aa8cc6808ff6b6a7c4db
 
