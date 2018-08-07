@@ -1,5 +1,5 @@
 PODS:
-  - TRKit (0.1.0)
+  - TRKit (0.1.1)
 
 DEPENDENCIES:
   - TRKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TRKit: d649d2af70ea76ccfccb680888e9593996821cc6
+  TRKit: 9b7dded3c0f335b4922e17adaa4ca4890aa13f46
 
 PODFILE CHECKSUM: b8e3a118f44162464476aa8cc6808ff6b6a7c4db
 

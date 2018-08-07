@@ -12,9 +12,11 @@
 
 #import "NSObject+TRAuthorization.h"
 #import "NSObject+TRVersion.h"
+#import "UIButton+Countdown.h"
 #import "UIButton+TRImageTitleSpacing.h"
 #import "UIDevice+TRInfo.h"
 #import "UIScrollView+TRAdd.h"
+#import "UIViewController+TRAdd.h"
 
 FOUNDATION_EXPORT double TRKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char TRKitVersionString[];

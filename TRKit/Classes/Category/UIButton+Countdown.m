@@ -7,6 +7,8 @@
 //
 
 #import "UIButton+Countdown.h"
+#import <objc/runtime.h>
+#import <objc/NSObjCRuntime.h>
 
 @implementation UIButton (Countdown)
 
@@ -22,7 +24,7 @@
     dispatch_source_set_event_handler(_timer, ^{
         NSTimeInterval interval = [endTime timeIntervalSinceNow];
         if (interval > 0) {
-            NSString *strTime = [NSString stringWithFormat:@"%.2ld", (NSInteger)interval];
+            NSString *strTime = [NSString stringWithFormat:@"%.2zd", (long)interval];
             dispatch_async(dispatch_get_main_queue(), ^{
                 self.titleLabel.text = [NSString stringWithFormat:@"%@s后重试",strTime];
                 [self setTitle:[NSString stringWithFormat:@"%@s后重试",strTime] forState:UIControlStateNormal];
