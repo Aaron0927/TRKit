@@ -15,7 +15,7 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - MJRefresh (3.1.15.3)
-  - TRKit (0.1.2):
+  - TRKit (0.1.3):
     - AFNetworking
     - MJRefresh
 
@@ -34,7 +34,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
-  TRKit: e9841890041bb510431f9b4bd903f654c0e45458
+  TRKit: 4db78bc60618e50c7466f6550fa49b492cc3c873
 
 PODFILE CHECKSUM: b8e3a118f44162464476aa8cc6808ff6b6a7c4db
 

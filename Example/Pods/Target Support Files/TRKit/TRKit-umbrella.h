@@ -16,6 +16,7 @@
 #import "UIButton+TRImageTitleSpacing.h"
 #import "UIDevice+TRInfo.h"
 #import "UIScrollView+TRAdd.h"
+#import "UIScrollView+TRRefresh.h"
 #import "UIViewController+TRAdd.h"
 #import "TRHTTPSessionManager.h"
 #import "TRHTTPTool.h"
