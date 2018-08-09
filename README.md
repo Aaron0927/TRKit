@@ -23,8 +23,17 @@ pod 'TRKit'
 自己封装的项目中的常用组件，待持续完善。。。
 
 ### 分类
+#### UIScrollView+TRRefresh
+基于MJRefresh的二次封装
+指定对应的target和action就可以给scrollView添加刷新方法，后续添加更多的自定方法，方便调用
+```
+/// 设置默认的下拉刷新
+- (void)setNormalHeaderWithTarget:(id)target action:(SEL)action lastUpdateTimeKey:(nullable NSString *)lastUpdateTimeKey;
 ```
 
+```
+/// 设置默认的上拉刷新
+- (void)setNormalFooterWithTarget:(id)target action:(SEL)action;
 ```
 
 ## Author

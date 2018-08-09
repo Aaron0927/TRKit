@@ -14,8 +14,10 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - TRKit (0.1.1):
+  - MJRefresh (3.1.15.3)
+  - TRKit (0.1.2):
     - AFNetworking
+    - MJRefresh
 
 DEPENDENCIES:
   - TRKit (from `../`)
@@ -23,6 +25,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - MJRefresh
 
 EXTERNAL SOURCES:
   TRKit:
@@ -30,7 +33,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  TRKit: 60e6a0bf62f836eddf93d581709640870181be13
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  TRKit: e9841890041bb510431f9b4bd903f654c0e45458
 
 PODFILE CHECKSUM: b8e3a118f44162464476aa8cc6808ff6b6a7c4db
 
