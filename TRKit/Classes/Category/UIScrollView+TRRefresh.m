@@ -6,7 +6,6 @@
 //
 
 #import "UIScrollView+TRRefresh.h"
-#import <MJRefresh/MJRefresh.h>
 
 @implementation UIScrollView (TRRefresh)
 /// 设置默认的下拉刷新
