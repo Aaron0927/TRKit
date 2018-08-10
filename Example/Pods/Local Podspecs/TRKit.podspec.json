@@ -1,6 +1,6 @@
 {
   "name": "TRKit",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "summary": "pod组件库",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiaoerlong/TRKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/xiaoerlong/TRKit.git",
-    "tag": "0.1.3"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "8.0"
@@ -28,6 +28,12 @@
 
     ],
     "MJRefresh": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "YYKit": [
 
     ]
   }

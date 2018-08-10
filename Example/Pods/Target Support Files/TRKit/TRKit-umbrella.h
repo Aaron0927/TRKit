@@ -11,6 +11,7 @@
 #endif
 
 #import "NSObject+TRAuthorization.h"
+#import "NSObject+TRHUD.h"
 #import "NSObject+TRVersion.h"
 #import "UIButton+Countdown.h"
 #import "UIButton+TRImageTitleSpacing.h"
