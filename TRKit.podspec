@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TRKit'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = 'pod组件库'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'TRKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'TRKit' => ['TRKit/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'TRKit' => ['TRKit/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
@@ -42,4 +42,5 @@ TODO: Add long description of the pod here.
   s.dependency 'MJRefresh'
   s.dependency 'MBProgressHUD'
   s.dependency 'YYKit'
+  s.dependency 'DZNEmptyDataSet'
 end

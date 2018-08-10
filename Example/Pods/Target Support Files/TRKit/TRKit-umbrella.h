@@ -20,6 +20,7 @@
 #import "UIScrollView+TRAdd.h"
 #import "UIScrollView+TRRefresh.h"
 #import "UIViewController+TRAdd.h"
+#import "TREmptyViewManager.h"
 #import "TRHTTPSessionManager.h"
 #import "TRHTTPTool.h"
 

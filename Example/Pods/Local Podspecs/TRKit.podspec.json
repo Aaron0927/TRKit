@@ -1,6 +1,6 @@
 {
   "name": "TRKit",
-  "version": "0.1.6",
+  "version": "0.1.8",
   "summary": "pod组件库",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiaoerlong/TRKit",
@@ -13,12 +13,17 @@
   },
   "source": {
     "git": "https://github.com/xiaoerlong/TRKit.git",
-    "tag": "0.1.6"
+    "tag": "0.1.8"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "TRKit/Classes/**/*",
+  "resource_bundles": {
+    "TRKit": [
+      "TRKit/Assets/*.png"
+    ]
+  },
   "frameworks": [
     "UIKit",
     "Foundation"
@@ -34,6 +39,9 @@
 
     ],
     "YYKit": [
+
+    ],
+    "DZNEmptyDataSet": [
 
     ]
   }
