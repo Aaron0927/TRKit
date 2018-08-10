@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "MBProgressHUD+Show.h"
 #import "NSObject+TRAuthorization.h"
 #import "NSObject+TRHUD.h"
 #import "NSObject+TRVersion.h"

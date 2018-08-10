@@ -6,7 +6,7 @@
 //
 
 #import "NSObject+TRHUD.h"
-#import "MBProgressHUD.H"
+#import "MBProgressHUD.h"
 #import "YYKit.h"
 
 @implementation NSObject (TRHUD)
