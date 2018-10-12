@@ -28,7 +28,6 @@
     [self.btn countdownWithTime:60 normalTitle:@"获取验证码"];
     [self.scrollView setNormalHeaderWithTarget:self action:@selector(refresh) lastUpdateTimeKey:nil];
     [self.scrollView setNormalFooterWithTarget:self action:@selector(loadMore)];
-    self.manager
 }
 
 - (void)refresh {
