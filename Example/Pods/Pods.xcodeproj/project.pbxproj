@@ -211,7 +211,6 @@
 		A03FB91E475BC7A4F49C9A1C1DFB6B61 /* UIButton+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 923AC451FBEF836D1871D032DE9A5BB5 /* UIButton+YYWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A12A3BC640B690479F345A49C6C48209 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F79EFD7795E0489826897985455E6C2D /* AFNetworkReachabilityManager.m */; };
 		A3465B456E9A572CA044A3999D8DEA83 /* NSTimer+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = FB67E053F44B93150C6EF5C19F95F9BA /* NSTimer+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4D362137DF9C73A5199C28638205BBF /* TREmptyViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F3FB29C20D246805AC84483B985D25A /* TREmptyViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5382D3EA98D2EB1AD9EDA5F2138F00D /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1493822CE5AA380E0383EF035D52A088 /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5B069CA1170E03891AC5648DE5CF87D /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 062F9CD4E9C20B2497F2A1E36BA64B72 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5BF8DBDD8660DBCFE712657F3D82BDA /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = F47969A81FDFEED085F4EC63E3D42991 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -311,7 +310,6 @@
 		EEC0E27B748B6A323D7CC4683A611079 /* YYTextMagnifier.m in Sources */ = {isa = PBXBuildFile; fileRef = F2125DDD4DD2167B348FEE6544229A47 /* YYTextMagnifier.m */; };
 		EFF00C12F5CBB6C4123B2AE334CB569A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A214DB3D0DBE4AA33ED83B47D844D2 /* QuartzCore.framework */; };
 		F1199E40BF416FC1ACA2DDCD7B2E23A1 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 10FE9397DDE5D93CC1B31C834D1D8D6A /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F23D98408A2E5C6EBD767D0A27668B42 /* TREmptyViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5898968FC7ED611192097EFEDC7747 /* TREmptyViewManager.m */; };
 		F26CD9A1DF452688BF3C98BBA9090F92 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = B32F0CC8D96CDB3A20E3734D0DA0506F /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F271E4DABD41CF7440890C0573F4167D /* reloadbtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AF97D530B1FDC4FFA9C02C34EC3FC71 /* reloadbtn@2x.png */; };
 		F30950E63F3D8D6C07FFB50C5971116E /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ADFD3C73609F57DE7BC7E7670C78A4 /* AFSecurityPolicy.m */; };
@@ -575,7 +573,6 @@
 		6AB9293529C463E074899FDFCB851054 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		6D8E4F5899B852A2103D820F13A43545 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DF102C0307C8924F9CA0F65723187EF /* DZNEmptyDataSet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZNEmptyDataSet-prefix.pch"; sourceTree = "<group>"; };
-		6E5898968FC7ED611192097EFEDC7747 /* TREmptyViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TREmptyViewManager.m; sourceTree = "<group>"; };
 		6EB4C2624CBE7A56EF31064F92EB76F2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		6EC600F61773942EB157391E835C242C /* TRKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TRKit.modulemap; sourceTree = "<group>"; };
 		74041AA1D7CB830F0A1C2CC970A7DCDC /* YYTextDebugOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextDebugOption.h; path = YYKit/Text/Component/YYTextDebugOption.h; sourceTree = "<group>"; };
@@ -620,7 +617,6 @@
 		8C0ED548DD6083ECCA391D3057C5227C /* wushuju@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "wushuju@3x.png"; path = "TRKit/Assets/wushuju@3x.png"; sourceTree = "<group>"; };
 		8D93F9EBF14A199A80D96C614030AFD1 /* UIButton+Countdown.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Countdown.m"; sourceTree = "<group>"; };
 		8E60F778CD7C236F1A56F2B064A21DDF /* UITableView+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+YYAdd.m"; path = "YYKit/Base/UIKit/UITableView+YYAdd.m"; sourceTree = "<group>"; };
-		8F3FB29C20D246805AC84483B985D25A /* TREmptyViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TREmptyViewManager.h; sourceTree = "<group>"; };
 		8FECFC2B8669DBC2E8EA055E76FDF89D /* YYTextArchiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTextArchiver.h; path = YYKit/Text/String/YYTextArchiver.h; sourceTree = "<group>"; };
 		923AC451FBEF836D1871D032DE9A5BB5 /* UIButton+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+YYWebImage.h"; path = "YYKit/Image/Categories/UIButton+YYWebImage.h"; sourceTree = "<group>"; };
 		929AE4BA03BE0863579836D635929F5D /* YYImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYImageCache.h; path = YYKit/Image/YYImageCache.h; sourceTree = "<group>"; };
@@ -963,7 +959,6 @@
 			isa = PBXGroup;
 			children = (
 				1FD57729567DCA2E1E4BB7B617A1B275 /* Category */,
-				C68BA28EFA067361B23A57A9EF48331A /* EmptyView */,
 				EA927FE612A5C8C79513C2B6977387AF /* NetworkTool */,
 				014ABD1CDD2724DC709029107606B6D7 /* Pod */,
 				A3BE5D81F360BC3B6AAE78C1921E4479 /* Resources */,
@@ -1455,16 +1450,6 @@
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
-		C68BA28EFA067361B23A57A9EF48331A /* EmptyView */ = {
-			isa = PBXGroup;
-			children = (
-				8F3FB29C20D246805AC84483B985D25A /* TREmptyViewManager.h */,
-				6E5898968FC7ED611192097EFEDC7747 /* TREmptyViewManager.m */,
-			);
-			name = EmptyView;
-			path = TRKit/Classes/EmptyView;
-			sourceTree = "<group>";
-		};
 		CF6D323211142963CB88A14187A76F9C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1638,7 +1623,6 @@
 				3135D46BC6200B5723613AFCEF255EE2 /* NSObject+TRAuthorization.h in Headers */,
 				9C8E90C2E901146C913BB5E442D57713 /* NSObject+TRHUD.h in Headers */,
 				35AF69285AEA4DA9A7C5BFC765DFC9DA /* NSObject+TRVersion.h in Headers */,
-				A4D362137DF9C73A5199C28638205BBF /* TREmptyViewManager.h in Headers */,
 				93DE9848746A16F3C3878A25E85DA784 /* TRHTTPSessionManager.h in Headers */,
 				FDDCC9E98A38656E51DF61A5FDD020DA /* TRHTTPTool.h in Headers */,
 				3EA0083B48AB7D0B1CEA14D31BC25811 /* TRKit-umbrella.h in Headers */,
@@ -2005,7 +1989,6 @@
 				CBFADE53180BBC4DDAE0180E0494523F /* NSObject+TRAuthorization.m in Sources */,
 				6953BC845D50559C29F63CDB74552D4A /* NSObject+TRHUD.m in Sources */,
 				60E97A8CD135E8E236B58A4BE5306596 /* NSObject+TRVersion.m in Sources */,
-				F23D98408A2E5C6EBD767D0A27668B42 /* TREmptyViewManager.m in Sources */,
 				62B762172C66DA5950D6713B1082B3C1 /* TRHTTPSessionManager.m in Sources */,
 				13C7053214CA1BC6772205B47AFBCE3D /* TRHTTPTool.m in Sources */,
 				925C348676F717A65DD99A9A6D1ACE2A /* TRKit-dummy.m in Sources */,
